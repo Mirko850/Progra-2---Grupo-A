@@ -1,0 +1,6 @@
+Una empresa de lavado de autos nos pide un sistema para la gestion de turnos, para esto creamos la clase Cola/Turnos sin atributos, generamos los siguientes metodos:
+InicializarCola(): Se genera un arreglo, con una longitud fija (cantidad de turnos por dia),se definde el primero de la cola en 0.
+Acolar(Param): Es un metodo que agrega un elemento (parametro) en el ultimo lugar de la cola.
+Desacolar(): Es un metodo que elimina el primer elemento de la cola.
+Primero(): Verifica y devuelve la primera posicion de la cola.
+ColaVacia(): Verifica que la cola este vacia.
