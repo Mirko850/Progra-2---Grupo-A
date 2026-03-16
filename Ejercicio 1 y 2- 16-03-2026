@@ -1,3 +1,5 @@
+Ejercicio 1:
+
 -- SISTEMA DE LAVADERO DE AUTOS --
 
 LOS USUARIOS
@@ -20,3 +22,11 @@ Acolar(Param): Es un metodo que agrega un elemento (parametro) en el ultimo luga
 Desacolar(): Es un metodo que elimina el primer elemento de la cola.
 Primero(): Verifica y devuelve la primera posicion de la cola.
 ColaVacia(): Verifica que la cola este vacia.
+
+----------------------------------------------------------
+
+Ejercicio 2:
+
+Estrategia 1: Es la que pensamos nosotros que es la mas apropiada, menos costosa, mas rapida y no mueve elementos, su unico costo extra es la variable auxiliar para guardar el tope y la ultima posicion.
+Estrategia 2: Consideramos que es la peor estrategia, no solo por ser lenta sino tambien por el costo que conlleva mover todos los elementos de la pila cada vez que ingresa un elemento.
+Estrategia 3: La consideramos como una estrategia intermedia, ya que no es tan costosa como la 2 no requiere mover ningun elemento pero su contra es que sacrifica la primera posicion (la 0) para guardar la cantidad de elementos de la lista.
