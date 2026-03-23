@@ -1,0 +1,34 @@
+Bloque 1: Pilas (LIFO - Last In, First Out)
+
+1. Historial de Navegación:
+Consigna: Identificá qué se apila en cada paso y qué sucede (qué desapila) cuando el usuario aprieta la flechita de "Atrás".
+
+--Rta:  El historial de navegación funciona como una pila, primero apila fi.uba.ar despues apila campus.utn.edu.ar y por ultimo apila stackoverflow.com, siendo el tope de la pila stack overflow y cuando se presiona el botón atrás se mueve el tope a la posición anterior (se desapila).
+
+2. Editor de Código (Undo/Deshacer): Estás codeando y borrás una línea por error.
+Consigna: Describí qué estado del código deberías Apilar cada vez que el usuario hace un cambio y cómo recuperás el estado anterior.
+
+--Rta: Se utiliza una pila para almacenar los estados del código. Antes de cada modificación, se apila el estado actual completo. Al realizar un Undo, se desapila el último estado y se lo restaura como código actual. De esta forma, siempre se vuelve al estado anterior utilizando el comportamiento LIFO. Cada elemento de la pila representa una versión del código en un momento determinado.
+
+3. Balanceo de Paréntesis: El compilador de Java chequea que no te hayas olvidado de cerrar una llave.
+Consigna: En la expresión ( ( a + b ) * c ), ¿en qué momento exacto hacés un Apilar
+y cuándo comparás para hacer un Desapilar?
+
+--Rta: Cada vez que se abre un paréntesis se apila el paréntesis en la pila y cuando aparece un paréntesis cerrado primero verifica si hay elementos en la pila y si, si hay desapila un elemento de la pila. Si no hay elementos en la pila va a dar error porque no hay elementos en la pila y está mal hecha la ecuación. Al final la pila debe quedar vacía
+
+4. Reversión de Strings: Querés dar vuelta la palabra "ALGORITMOS".
+Consigna: Explica el proceso de meter letra por letra en la Pila y cómo quedan al sacarlas.
+
+--Rta: Recorremos un string con un for y se apila la palabra caracter por caracter en la pila y después de apilamos colocando los caracteres en un string y queda la palabra al revés. Al desapilar, las letras salen en orden inverso por el comportamiento LIFO.
+
+5. Pila de Llamadas (Call Stack): Cuando una función llama a otra.
+Consigna: Sí Main() llama a CalcularPromedio() y esta llama a Sumar(), ¿quién está en el Tope() en el momento de la ejecución de la suma?
+
+--Rta: Se crea una pila al momento de ejecutar el programa y se apila el Main(), se apila CalcularPromedio() y por último se apila Sumar() que quedaría en el tope porque Sumar() no tiene funciones anidadas.
+
+6. Navegación de Directorios: Entrás a C:/, luego a Usuarios, luego a Documentos.
+
+Consigna: ¿Cómo usás una Pila para que el sistema sepa a qué carpeta volver si apretás "Subir un nivel"?
+C:/Usuarios/Documentos
+
+--Rta: Se crea una pila en el cual cada vez que se abre una carpeta se Apila y cada vez que se le da al botón “Subir de Nivel” se desapila y vuelve al último directorio (El Tope) . Se apila el directorio actual antes de cambiar, no el nuevo directamente
