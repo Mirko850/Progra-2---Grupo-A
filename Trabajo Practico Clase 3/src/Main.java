@@ -55,14 +55,14 @@ public class Main {
         triage.AcolarPrioridad(4, 70);  // fractura
         triage.AcolarPrioridad(5, 10);  // muela
 
-        // atención por prioridad
-        while (!triage.ColaVacia()) {
-            System.out.println(
-                    "Paciente: " + triage.Primero() +
-                            " | Prioridad: " + triage.Prioridad()
-            );
-            triage.Desacolar();
-        }
+//        // atención por prioridad
+//        while (!triage.ColaVacia()) {
+//            System.out.println(
+//                    "Paciente: " + triage.Primero() +
+//                            " | Prioridad: " + triage.Prioridad()
+//            );
+//            triage.Desacolar();
+//        }
 
 
     }
