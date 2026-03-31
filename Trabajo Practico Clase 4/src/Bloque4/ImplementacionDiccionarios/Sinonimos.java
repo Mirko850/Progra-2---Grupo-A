@@ -1,8 +1,6 @@
-package Implementacion;
+package Bloque4.ImplementacionDiccionarios;
 
-import Interface.DiccionarioMultipleTDA;
-
-public class DiccionarioMultipleEstatico implements DiccionarioMultipleTDA {
+public class Sinonimos implements DiccionariosMultiple {
 
     private static final int MAX_CLAVES = 100;
     private static final int MAX_VALORES = 100;
@@ -124,4 +122,5 @@ public class DiccionarioMultipleEstatico implements DiccionarioMultipleTDA {
     private boolean existeValor(int posClave, int valor) {
         return buscarValor(posClave, valor) != -1;
     }
+
 }

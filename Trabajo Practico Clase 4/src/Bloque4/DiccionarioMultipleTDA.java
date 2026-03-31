@@ -1,4 +1,4 @@
-package Interface;
+package Bloque4;
 
 public interface DiccionarioMultipleTDA {
     void InicializarDiccionario();

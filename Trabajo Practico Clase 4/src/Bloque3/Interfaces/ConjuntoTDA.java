@@ -1,3 +1,5 @@
+package Bloque3.Interfaces;
+
 public interface ConjuntoTDA {
     void InicializarConjunto();
     void Agregar(int x);
