@@ -1,0 +1,17 @@
+Sistema → prioridad 50
+Usuario (Spotify) → prioridad 10
+¿Qué pasa si se sobrecarga?
+
+Como la cola siempre prioriza el número mayor:
+
+Los procesos del sistema siempre pasan primero
+Los procesos de usuario pueden quedar esperando
+
+Problema real:
+Starvation (inanición): procesos de baja prioridad nunca se ejecutan.
+
+Respuesta:
+
+Sistema: 50
+Usuario: 10
+Si hay sobrecarga los procesos del sistema dominan y los del usuario pueden no ejecutarse.

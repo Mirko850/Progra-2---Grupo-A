@@ -1,0 +1,8 @@
+Según la implementación:
+
+while (i >= 0 && prioridades[i] < prioridad)
+
+El de mayor prioridad se ubica más adelante en la cola (posición 0).
+
+Resultado:
+Sale primero el promocionado, aunque llegó más tarde.

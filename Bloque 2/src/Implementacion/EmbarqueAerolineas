@@ -1,0 +1,15 @@
+Embarque de Aerolíneas
+Movilidad reducida → prioridad 3
+Business → prioridad 2
+Económica → prioridad 1
+¿Qué pasa si dos tienen misma prioridad?
+
+Tenemos
+
+while (i >= 0 && prioridades[i] < prioridad)
+
+Solo mueve si la prioridad es menor, no igual
+Entonces, si tienen la misma prioridad, NO se reordenan
+
+Resultado:
+Se respeta el orden de llegada (FIFO dentro de misma prioridad)

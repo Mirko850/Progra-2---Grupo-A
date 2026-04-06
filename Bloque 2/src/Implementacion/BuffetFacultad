@@ -1,0 +1,9 @@
+Consigna: evitar que alguien se cuele.
+
+En TDA Cola común (ColaEstatica):
+
+Usamos: Acolar(x)
+Porque respeta FIFO (First In, First Out)
+
+Solucion:
+La operación clave es Acolar, porque mantiene el orden de llegada y evita que alguien se meta adelante.

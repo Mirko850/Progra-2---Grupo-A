@@ -1,0 +1,17 @@
+Servidor caído → prioridad 999
+Fondo de pantalla → prioridad 0
+
+Asignación:
+
+Servidor principal roto → 999
+Problema menor → 0
+
+Resultado:
+El ticket crítico siempre se atiende primero.
+
+Mayor número de prioridad → sale primero
+Si la prioridad es igual → respeta orden de llegada
+AcolarPrioridad inserta ordenado
+Desacolar elimina el primero (máxima prioridad)
+Cola común → FIFO
+Cola con prioridad → prioridad manda

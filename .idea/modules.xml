@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bloque 1/Bloque 1.iml" filepath="$PROJECT_DIR$/Bloque 1/Bloque 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bloque 2/Bloque 2.iml" filepath="$PROJECT_DIR$/Bloque 2/Bloque 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bloque 3/Bloque 3.iml" filepath="$PROJECT_DIR$/Bloque 3/Bloque 3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bloque 4/Bloque 4.iml" filepath="$PROJECT_DIR$/Bloque 4/Bloque 4.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Progra-2---Grupo-A.iml" filepath="$PROJECT_DIR$/.idea/Progra-2---Grupo-A.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Trabajo Practico Clase 3/Trabajo Practico Clase 3.iml" filepath="$PROJECT_DIR$/Trabajo Practico Clase 3/Trabajo Practico Clase 3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Trabajo Practico Clase 4/Trabajo Practico Clase 4.iml" filepath="$PROJECT_DIR$/Trabajo Practico Clase 4/Trabajo Practico Clase 4.iml" />
     </modules>
   </component>
 </project>
