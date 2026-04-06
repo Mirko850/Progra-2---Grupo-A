@@ -1,5 +1,6 @@
 import ImplementacionDiccionarios.AgendaContactos;
 import ImplementacionDiccionarios.DiccionarioSinonimos;
+import ImplementacionDiccionarios.PuntajeTorneo;
 import Interfaces.Diccionarios;
 import Interfaces.DiccionariosMultiple;
 
@@ -74,8 +75,24 @@ public class Main {
           String[] clavesFinal = sinonimos.Claves();
           for (int i = 0; i < clavesFinal.length; i++) {
               System.out.println(clavesFinal[i]);
+
+            // PRUEBA PUNTAJE TORNEO
+
+            PuntajeTorneo Puntajes = new PuntajeTorneo();
+
+            Puntajes.InicializarDiccionario();
+
+            String Jugador1 = "Jugador 1";
+            String Jugador2 = "Jugador 2";
+
+            int Puntaje1 = 500;
+            int Puntaje2 = 350;
+
+            Puntajes.Agregar(Jugador1, Puntaje1);
+            Puntajes.Agregar(Jugador2, Puntaje2);
+
+            System.out.println("\nEl jugador 1 tiene "+Puntajes.Recuperar(Jugador1)+" puntos y el jugador 2 tiene "+Puntajes.Recuperar(Jugador2)+" puntos.\n");
+
           }
-
-
     }
 }
