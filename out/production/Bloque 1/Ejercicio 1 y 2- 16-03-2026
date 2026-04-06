@@ -1,0 +1,32 @@
+Ejercicio 1:
+
+-- SISTEMA DE LAVADERO DE AUTOS --
+
+LOS USUARIOS
+
+1. Como usuario quiero un sistema de gestion de turnos para un lavadero de autos.
+2. Al momento de empezar la jornada, se atenderan los clientes por turnos previos.
+3. El sistema debera verificar si hay turnos cargados, si esta vacia, agrega un nuevo turno al principio.
+4. Al cargar un nuevo turno, el sistema debera verificar si hay turnos en la fila, si hay, debera cargarlo al final.
+5. A cada usuario se le asignara un turno con una hora y un numero.
+6. El sistema debera permitir asignar turnos unicamente dentro del horario de atencion.
+7. Al momento de atender al cliente se verifica que coincida con el turno para poder atenderlo
+8. Una vez terminado el servicio, el gerente u operador podra marcar el servicio finalizado.
+9. El sistema debera borrar de la fila este turno.
+
+LOS IMPLEMENTADORES
+
+Una empresa de lavado de autos nos pide un sistema para la gestion de turnos, para esto creamos la clase Cola/Turnos sin atributos, generamos los siguientes metodos:
+InicializarCola(): Se genera un arreglo, con una longitud fija (cantidad de turnos por dia),se definde el primero de la cola en 0.
+Acolar(Param): Es un metodo que agrega un elemento (parametro) en el ultimo lugar de la cola.
+Desacolar(): Es un metodo que elimina el primer elemento de la cola.
+Primero(): Verifica y devuelve la primera posicion de la cola.
+ColaVacia(): Verifica que la cola este vacia.
+
+----------------------------------------------------------
+
+Ejercicio 2:
+
+Estrategia 1: Es la que pensamos nosotros que es la mas apropiada, menos costosa, mas rapida y no mueve elementos, su unico costo extra es la variable auxiliar para guardar el tope y la ultima posicion.
+Estrategia 2: Consideramos que es la peor estrategia, no solo por ser lenta sino tambien por el costo que conlleva mover todos los elementos de la pila cada vez que ingresa un elemento.
+Estrategia 3: La consideramos como una estrategia intermedia, ya que no es tan costosa como la 2 no requiere mover ningun elemento pero su contra es que sacrifica la primera posicion (la 0) para guardar la cantidad de elementos de la lista.
