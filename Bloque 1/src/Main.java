@@ -1,4 +1,4 @@
-import InterfazPilaDinamica.PilaDinamica;
+import InterfazPilaDinamica.PilaEstaticaEstrategia1;
 import InterfazPilaDinamica.PilaTDA;
 
 public class Main {
