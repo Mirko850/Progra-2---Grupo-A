@@ -2,8 +2,8 @@ package InterfazPilaDinamica;
 
 public interface PilaTDA {
     void InicializarPila();
-    void Apilar(String x);
+    void Apilar(int x);
     void Desapilar();
-    String Tope();
+    int Tope();
     boolean PilaVacia();
 }

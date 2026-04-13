@@ -11,7 +11,7 @@ public class PilaDinamica implements PilaTDA {
     }
 
     @Override
-    public void Apilar(String x) {
+    public void Apilar(int x) {
         // El nuevo nodo apunta al tope actual, y pasa a ser el nuevo tope.
         // Esto respeta LIFO: el último en entrar es el primero en salir.
         Node node = new Node(x, tope);
@@ -27,7 +27,7 @@ public class PilaDinamica implements PilaTDA {
     }
 
     @Override
-    public String Tope() {
+    public int Tope() {
         return tope.getData();
     }
 

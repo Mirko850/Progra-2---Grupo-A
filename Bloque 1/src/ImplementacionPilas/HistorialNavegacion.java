@@ -13,7 +13,7 @@ public class HistorialNavegacion extends PilaDinamica {
     }
 
     @Override
-    public void Apilar(String x) {
+    public void Apilar(int x) {
         // El nuevo nodo apunta al tope actual, y pasa a ser el nuevo tope.
         // Esto respeta LIFO: el último en entrar es el primero en salir.
         Node node = new Node(x, tope);
@@ -29,7 +29,7 @@ public class HistorialNavegacion extends PilaDinamica {
     }
 
     @Override
-    public String Tope() {
+    public int Tope() {
         return tope.getData();
     }
 
