@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/5_Desafios/5_Desafios.iml" filepath="$PROJECT_DIR$/5_Desafios/5_Desafios.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bloque 1/Bloque 1.iml" filepath="$PROJECT_DIR$/Bloque 1/Bloque 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bloque 2/Bloque 2.iml" filepath="$PROJECT_DIR$/Bloque 2/Bloque 2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bloque 3/Bloque 3.iml" filepath="$PROJECT_DIR$/Bloque 3/Bloque 3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bloque 4/Bloque 4.iml" filepath="$PROJECT_DIR$/Bloque 4/Bloque 4.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bloque5/Bloque5.iml" filepath="$PROJECT_DIR$/Bloque5/Bloque5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicio Prueba/Ejercicio 5 Parcial/Ejercicio 5 Parcial.iml" filepath="$PROJECT_DIR$/Ejercicio Prueba/Ejercicio 5 Parcial/Ejercicio 5 Parcial.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ejercicio Prueba/Ejercicio Prueba.iml" filepath="$PROJECT_DIR$/Ejercicio Prueba/Ejercicio Prueba.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Progra-2---Grupo-A.iml" filepath="$PROJECT_DIR$/.idea/Progra-2---Grupo-A.iml" />
     </modules>

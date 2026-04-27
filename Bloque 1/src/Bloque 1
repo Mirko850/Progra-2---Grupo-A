@@ -7,7 +7,7 @@ Consigna: Identificá qué se apila en cada paso y qué sucede (qué desapila) c
 
 2. Editor de Código (Undo/Deshacer): Estás codeando y borrás una línea por error.
 Consigna: Describí qué estado del código deberías Apilar cada vez que el usuario hace un cambio y cómo recuperás el estado anterior.
-
+1
 --Rta: Se utiliza una pila para almacenar los estados del código. Antes de cada modificación, se apila el estado actual completo. Al realizar un Undo, se desapila el último estado y se lo restaura como código actual. De esta forma, siempre se vuelve al estado anterior utilizando el comportamiento LIFO. Cada elemento de la pila representa una versión del código en un momento determinado.
 
 3. Balanceo de Paréntesis: El compilador de Java chequea que no te hayas olvidado de cerrar una llave.

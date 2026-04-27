@@ -6,4 +6,12 @@ public interface ColaTDA {
     void Desacolar();
     int Primero();
     boolean ColaVacia();
+
+    interface ColaTDA {
+        void InicializarCola();
+        void Acolar(int x);
+        void Desacolar();
+        int Primero();
+        boolean ColaVacia();
+    }
 }
