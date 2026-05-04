@@ -34,7 +34,7 @@ Si el elemento es mayor al límite, lo guarda también en la cola de resultados 
 Al finalizar, vuelve a volcar los elementos de tmp a la cola original para restaurarla.
 Preguntas:
 (a) Determiná la complejidad temporal O(n) justificando la cantidad de recorridos completos que se realizan sobre los datos.
-Respuesta:La complejidad temporal es lineal, denotada como O(n).
+Respuesta:La complejidad temporal es O(n^2).
 --Primer recorrido (Extracción y Filtrado): Se desencolan los n elementos de la cola original.
 Por cada elemento, se realiza una comparación (if) y se inserta en tmp y (potencialmente) en res.
 Esto toma n operaciones.
