@@ -1,0 +1,53 @@
+EJERCICIO 1: Análisis de Código Secuencial vs. Iterativo
+Determiná la familia de complejidad temporal O del siguiente método en el peor caso. Justificá desglosando
+el costo de cada bloque.
+
+public static void procesoMisterioso(int[] arreglo) {
+    int n = arreglo.length;                                     // C_1
+    int a = 10;                         // (Instrucción 1)     // C_2
+    System.out.println("Inicio");      //  (Instrucción 2)     // C_3
+
+    for (int i = 0; i < n; i++) {       // (Bucle 1)           // N_1
+        arreglo[i] = arreglo[i] * 2;                           // C_4
+    }
+
+    for (int j = 0; j < n; j++) {       // (Bucle 2)          //N_2
+        if (arreglo[j] > 100) {                               //C_5
+            System.out.println(arreglo[j]);                   //C_6
+        }
+    }
+}
+
+(C_1 + C_2 + C_3) + (N_1 * C_4) + (N_2 * (C_5 + C_6)) = N_1 + N_2 = O(n)
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+EJERCICIO 2: El "Bardo" de los Ciclos Anidados
+Analizá el método validarPares y determiná su complejidad temporal. ¿Qué sucede si el número que buscamos está en la
+primera posición? ¿Y si no está? Enfocate en el peor caso.
+
+public static boolean validarPares(int[][] matriz) {
+    int n = matriz.length;                                           //C_1
+    for (int i = 0; i < n; i++) {               // Ciclo Externo     //N_1
+        for (int j = 0; j < n; j++) {           // Ciclo Interno     //N_2
+            if (matriz[i][j] % 2 == 0) {                             //C_2
+                System.out.println("Par hallado");                   //C_3
+            }
+        }
+    }
+    return false;                                                     // C_4
+}
+
+C_1 + N_1 * N_2 (C_2 + C3) + C_4
+ 
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+EJERCICIO 3: Comparación de Implementaciones (TDA Cola)
+Basándote en las tablas de costos de la cátedra, compará la operación Acolar(x) en:
+ColaPU (Estática): Donde el nuevo elemento va siempre a la posición 0 del arreglo.
+ColaLD (Dinámica): Donde se utiliza un puntero al último nodo. Pregunta: ¿Cuál es el costo de cada una y por qué la
+implementación estática suele ser más "pesada" en este caso?
